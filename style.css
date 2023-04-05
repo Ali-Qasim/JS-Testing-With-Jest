@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Italiana', serif;
+}
+
+body{
+
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div {
+    display: inherit;
+    flex-direction: inherit;
+    padding: inherit;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+}
+
+.inputs {
+    margin: 5vh;
+}
+
+button {
+    border-radius: 100vh;
+    -webkit-border-radius: 100vh;
+    -moz-border-radius: 100vh;
+    -ms-border-radius: 100vh;
+    -o-border-radius: 100vh;
+
+    width: 10vw;
+    margin: 0.2vh;
+    
+    background-color: hsl(0, 22%, 66%);
+    color: rgb(20, 20, 20);
+    padding: 5px 10px;
+
+    border-style: none;
+    text-align: center;
+
+    font-weight: 600;
+}
+
+button:active {
+    background-color: hsl(0, 22%, 90%);
+    border-style:dashed;
+
+}
+
+input {
+    margin: 0.2vh;
+    border-radius: 100vh;
+    -webkit-border-radius: 100vh;
+    -moz-border-radius: 100vh;
+    -ms-border-radius: 100vh;
+    -o-border-radius: 100vh;
+
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 100%;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    opacity: 1;
+}
+
+#result{
+    font-size: 50px;
+    font-weight: 600;
+}

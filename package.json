@@ -1,0 +1,14 @@
+{
+  "name": "JS-Testing-With-Jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "AliQ",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
