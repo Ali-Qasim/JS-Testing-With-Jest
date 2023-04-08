@@ -6,7 +6,7 @@ describe('Calculator functions', () => {
 
     it('should return the sum of two numbers', () => {
 
-      expect(add(2, 3)).toBe(5);
+      expect(add(3, 3)).toBe(6);
       expect(add(0, 0)).toBe(0);
       expect(add(-2, -3)).toBe(-5);
 

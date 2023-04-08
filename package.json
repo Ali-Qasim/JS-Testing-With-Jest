@@ -1,14 +1,14 @@
 {
   "name": "JS-Testing-With-Jest",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Parent folder for TDD using Jest",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll --verbose --coverage ./"
   },
   "keywords": [],
   "author": "AliQ",
   "devDependencies": {
+    "@types/jest": "^29.5.0",
     "jest": "^29.5.0"
   }
 }
