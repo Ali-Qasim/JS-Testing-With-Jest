@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Parent folder for TDD using Jest",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage ./"
+    "test": "jest --watchAll --verbose --coverage ./Stack"
   },
   "keywords": [],
   "author": "AliQ",
