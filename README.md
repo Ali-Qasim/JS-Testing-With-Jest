@@ -11,7 +11,7 @@ So, I decided to make an app for it!
 
 
 This is the floor plan she gave me!
-![image](./'Floor Plan Calculator'/floor_plan.png)
+![image](./Floor\ Area\ Calculator/floor_plan.png)
 
 The results!
 ![image](./'Floor Plan Calculator'/floorCalc.png)
