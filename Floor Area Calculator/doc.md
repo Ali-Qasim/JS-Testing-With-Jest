@@ -6,4 +6,9 @@ As is commonplace in the region, the measurements were given in feet and inches,
 
 So, I decided to make an app for it!
 
+
+This is the floor plan she gave me!
+![image](./floor_plan.png)
+
+The results!
 ![image](./floorCalc.png)
