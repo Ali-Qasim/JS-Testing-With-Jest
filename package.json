@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Parent folder for TDD using Jest",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage ./Stack"
+    "app": "node ./'Floor Area Calculator'/floorCalc.js",
+    "test": "jest --watchAll --verbose --coverage ./'Floor Area Calculator'"
   },
   "keywords": [],
   "author": "AliQ",
