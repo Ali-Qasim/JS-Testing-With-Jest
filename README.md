@@ -1,6 +1,7 @@
 # JS Testing With Jest
  Using Jest to unit test JS programs
  
+ 
  ## Floor-Area Calculator
 
 My grandmother asked me to help her calculate the floor area of a flat she's planning to move out of.
@@ -11,8 +12,10 @@ So, I decided to make an app for it!
 
 
 This is the floor plan she gave me!
+
 ![image](https://github.com/Ali-Qasim/JS-Testing-With-Jest/blob/main/Floor%20Area%20Calculator/floor_plan.png)
 
 The results!
+
 ![image](https://github.com/Ali-Qasim/JS-Testing-With-Jest/blob/main/Floor%20Area%20Calculator/floorCalc.png)
 
