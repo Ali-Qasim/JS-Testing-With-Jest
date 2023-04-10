@@ -12,20 +12,20 @@ class floorCalc {
 
   }
 
-  add(values) {
+  addData(values) {
 
     if((values[0][1] > 11) || (values[1][1] > 11)){
 
-        return "Invalid!";
+        return "Invalid, inch value greater than 11!";
 
     }
 
     for (let i = 0; i < 2; i++) {
       if((typeof(values[i][0]) != "number") || (typeof(values[i][1]) != "number")){
-        return "Invalid!";
+        return "Invalid, non-numeric!";
       }
       if((values[i][0] < 0) || (values[i][1] < 0)){
-        return "Invalid!";
+        return "Invalid, negative value!";
       }
     }
 
@@ -36,15 +36,15 @@ class floorCalc {
     return "Added";
   }
 
-  // run all calculations. takes no args, but requires 
-  calculate() {
+  // run all calculations on items, which is an object/dictionary 
+  calculate(items) {
 
     let room;
     let totalArea = 0;
     let roomArea = 0;
 
-    for(let i = 0; i <= Object.keys(this.items).length - 1; i++){
-      room = this.items[i];
+    for(let i = 0; i <= Object.keys(items).length - 1; i++){
+      room = items[i];
 
       roomArea = ((room[0][0] * 12) + room[0][1]) * ((room[1][0] * 12) + room[1][1]);
 
@@ -72,7 +72,7 @@ floor.items = {
   '4':[[19, 5],[11, 8]]
 }
 
-let area = floor.calculate();
+let area = floor.calculate(floor.items);
 
 console.log(`\nTotal Area = ${area[0]}' ${area[1]}" (square feet and inches)\n`);
 
@@ -88,7 +88,7 @@ floor.items = {
   '6':[[11, 11],[10, 6]]
 }
 
-area = floor.calculate();
+area = floor.calculate(floor.items);
 
 console.log(`\nTotal Area = ${area[0]}' ${area[1]}" (square feet and inches)\n`);
 
