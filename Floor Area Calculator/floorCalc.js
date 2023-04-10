@@ -12,6 +12,8 @@ class floorCalc {
 
   }
 
+  // adds values to this.items. values must be in the form [[a, b][c ,d]],
+  // where abcd are numbers denoting foot and inch values.
   addData(values) {
 
     if((values[0][1] > 11) || (values[1][1] > 11)){
@@ -29,14 +31,15 @@ class floorCalc {
       }
     }
 
-    const index = Object.keys(this.items).length; // indexing rooms from 1
+    const index = Object.keys(this.items).length; // indexing rooms from 0
 
     this.items[index] = values;
 
     return "Added";
   }
 
-  // run all calculations on items, which is an object/dictionary 
+  // run all calculations on items, which is an object/dictionary containing 
+  // key-value pairs in the form 'index': [[a, b],[c, d]]
   calculate(items) {
 
     let room;
